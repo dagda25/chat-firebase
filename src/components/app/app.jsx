@@ -18,6 +18,11 @@ firebase.initializeApp({
 
 const firestore = firebase.firestore();
 
+/**
+ *
+ * Корневой компонент приложения
+ */
+
 const App = () => {
   return (
     <main className="main-container">

@@ -1,8 +1,21 @@
 import React, { useState } from 'react';
 import './send-form.css';
 
+/**
+ *
+ * Компонент, отображающий форму отправки сообщений
+ */
+
 const SendForm = ({ firestore }) => {
+  /**
+   * Определение состояния поля ввода
+   */
   const [value, setValue] = useState('');
+
+  /**
+   *
+   * Функция, отправляющая сообщение
+   */
 
   const sendMessage = async (evt) => {
     evt.preventDefault();
