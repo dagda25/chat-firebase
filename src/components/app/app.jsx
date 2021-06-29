@@ -5,7 +5,6 @@ import './app.css';
 
 import firebase from 'firebase';
 import 'firebase/firestore';
-import 'firebase/auth';
 
 firebase.initializeApp({
   apiKey: 'AIzaSyBcniAkbTDapNTZVo4QNgGW1IHo8j3yoaU',
