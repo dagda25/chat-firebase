@@ -2,8 +2,7 @@
   width: 70%;
   margin: 0 auto;
   padding: 20px 0;
-  background: #000080;
-
+  background: #00838f;
 }
 
 .send-panel .send-form {
@@ -17,15 +16,15 @@
   width: 100%;
   margin: 0 auto;
   padding: 3px 7px;
-  border-radius: 10px;  
+  border-radius: 10px;
 }
 
 .send-form .send-button {
   background: #fff;
-  color: #000080;
+  color: #00838f;
   margin-top: 10px;
   padding: 5px 20px;
-  border: 2px solid #000080;
+  border: 2px solid 00838f;
   border-radius: 10px;
   font-weight: bold;
   cursor: pointer;
@@ -38,12 +37,14 @@
 .send-form .send-button:hover,
 .send-form .send-button:active {
   background: #c0c0c0;
-  color: #000
+  color: #000;
 }
 
 .send-form .send-button:active {
   background: #fff;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 @media screen and (max-width: 640px) {
@@ -57,13 +58,12 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
-    
   }
 
   .send-form .send-input {
     min-height: 50px;
     max-width: 75%;
-    font-size: 14px; 
+    font-size: 14px;
   }
 
   .send-form .send-button {
@@ -77,14 +77,13 @@
     margin-left: 20px;
     border: none;
     border-radius: 50%;
-    background-image: url("./assets/send.png");
+    background-image: url('./assets/send.png');
     background-size: 50px;
     cursor: pointer;
   }
 }
 
 @media screen and (max-width: 420px) {
-
   .send-button-mobile {
     width: 40px;
     height: 40px;
@@ -92,5 +91,3 @@
     background-size: 40px;
   }
 }
-
-
